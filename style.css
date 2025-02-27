@@ -1,0 +1,50 @@
+/* Navbar */
+.nav{
+    padding: 10px 1%;
+    display: flex;
+    justify-content: space-between;
+    width:98%;
+}
+
+/* Left side content */
+.leftNav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10%;
+}
+.logo a{
+    width: 30px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* Middle Content */
+.middleNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.links a{
+    text-decoration: none;
+}
+
+/* Right Side Content */
+.rightNav{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+.rightNav .login a{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
